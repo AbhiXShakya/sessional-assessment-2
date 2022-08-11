@@ -11,7 +11,7 @@ function ajax_get(url) {
         document.getElementById("cardrow").innerHTML = dataObj
           .map(
             (item) => `
-            <div class="card max-w-md-5 mx-lg-3">
+            <div style="padding: 10px" class="card max-w-md-5 mx-lg-3">
                 <div class="row m-l-0 m-r-0">
                     <div class="col-sm-4 bg-c-lite-green user-profile">
                         <div class="card-block text-center text-white">
